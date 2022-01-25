@@ -1,0 +1,52 @@
+.title {
+  text-align: center;
+  background-color:aquamarine;
+  padding: 50px;
+}
+
+.title h1 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+.title p {
+  color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+
+ul { 
+    list-style-type: none; /* remove bullets */
+    overflow: hidden;
+    background-color: aqua;
+  }
+  
+  li {
+    display: inline-block; 
+    align-items: center;
+    width: 19.99%;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    /* text-decoration: none; */
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:darkblue;
+  }
+body {
+  background-color: azure;
+}
